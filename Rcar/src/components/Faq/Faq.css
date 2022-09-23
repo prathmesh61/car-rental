@@ -1,0 +1,43 @@
+.faq {
+    padding: 2rem;
+    margin-top: 7rem;
+}
+
+.faq_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.faq_box {
+    width: 70%;
+    margin-top: 3rem;
+}
+
+.faq_que {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.faq_que h3 {
+    font-size: 1.6rem;
+}
+
+.ans {
+    font-size: 1.2rem;
+    transition: 200ms ease-in-out;
+
+}
+
+.ans.active-ans {
+    display: block;
+    transition: 200ms ease-in-out;
+}
+
+.plus {
+    cursor: pointer;
+}

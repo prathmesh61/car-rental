@@ -1,0 +1,48 @@
+.hero {
+    padding: 2rem;
+    width: 100%;
+}
+
+.hero_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.hero_wrapper .hero_right img {
+    width: 50rem;
+    object-fit: cover;
+}
+
+.hero_left h1 {
+    margin: 1rem 0;
+    font-size: 3.6rem;
+}
+
+.hero_left p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.hero_left>span {
+    font-size: 1.5rem;
+}
+
+.hero_cta {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media (max-width:720px) {
+    .hero_wrapper .hero_right img {
+        width: 30rem;
+        object-fit: cover;
+    }
+}

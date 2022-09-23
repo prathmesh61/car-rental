@@ -1,0 +1,104 @@
+.carlist {
+    margin-top: 9rem;
+    padding: 2rem;
+    position: relative;
+
+}
+
+a {
+    color: black;
+}
+
+.carlist_wrapper {
+    gap: 2rem;
+    display: flex;
+
+    padding: 1rem;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.carlist_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 270px;
+    height: max-content;
+    padding: 1rem;
+    /* box-shadow: 0px 15px 22px 3px rgba(0, 0, 0, 0.1); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.carlist_img {
+    width: 25rem;
+    object-fit: cover;
+    height: max-content;
+
+}
+
+.carlist_img img {
+    width: 25rem;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.carlist_name {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+
+.carlist_brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+
+}
+
+.carlist_fetures {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.carlist_price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.carlist_price h2>span {
+    font-size: 1.1rem;
+}
+
+.arrowRight,
+.arrowLeft {
+    background-color: black;
+    color: white;
+    border-radius: 10rem;
+    padding: 1rem;
+    opacity: .9;
+
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.arrowLeft {
+    top: 16rem;
+    left: 2rem;
+    position: absolute;
+}
+
+.arrowRight {
+    top: 16rem;
+    right: 3rem;
+    position: absolute;
+}

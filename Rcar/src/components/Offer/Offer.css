@@ -1,0 +1,39 @@
+.offer {
+    margin-top: 5rem;
+
+}
+
+.offerImg {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.img_overlay {
+    position: relative;
+    object-fit: cover;
+
+}
+
+.offer_content {
+    position: absolute;
+    top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: var(--white);
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.09), rgba(0, 0, 0, 02));
+    padding: 2rem;
+}
+
+.offer_content-box h2 {
+    font-size: 3rem;
+}
+
+.offer_content-box p {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
